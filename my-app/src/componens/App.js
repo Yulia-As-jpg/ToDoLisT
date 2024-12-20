@@ -11,6 +11,7 @@ const App = () => {
       <h1 className="todo-header">TODO</h1>
         <NewTaskForm />
         <Footer /> 
+        <ul className="todo-list"></ul>
     </div>
   );
 }
